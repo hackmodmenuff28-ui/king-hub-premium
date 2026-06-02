@@ -1,3 +1,4 @@
+repeat task.wait() until game:IsLoaded()
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -964,7 +965,7 @@ local closeMainBtn = Instance.new("TextButton", mainGuiContainer)
 closeMainBtn.Size = UDim2.new(0, 24, 0, 24)
 closeMainBtn.Position = UDim2.new(1, -30, 0, 4)
 closeMainBtn.BackgroundTransparency = 1
-closeMainBtn.Text = "Ã—"
+closeMainBtn.Text = "×"
 closeMainBtn.TextColor3 = Color3.fromRGB(200, 50, 50)
 closeMainBtn.Font = Enum.Font.GothamBold
 closeMainBtn.TextSize = 20
