@@ -1,40 +1,4 @@
-repeat task.wait() until game:IsLoaded()
-
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
-local UserInputService = game:GetService("UserInputService")
-local TweenService = game:GetService("TweenService")
-local CoreGui = game:GetService("CoreGui")
-local Player = Players.LocalPlayer
-local UIS = game:GetService("UserInputService")
-
-local isMobile = UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled
-
--- ============================================
--- INFINITE JUMP VARIABLES
--- ============================================
-local infJumpEnabled = false
-
--- ============================================
--- UNWALK VARIABLES
--- ============================================
-local unwalkEnabled = false
-local unwalkConn = nil
-local gChar = nil
-
--- ============================================
--- ESP VARIABLES
--- ============================================
-local espEnabled = false
-local espConns = {}
-local ESP_COLOR = Color3.fromRGB(220, 30, 30)
-
--- ============================================
--- AUTO LEFT / AUTO RIGHT VARIABLES
--- ============================================
-local autoLeftEnabled = false
-local autoRightEnabled = false
-local autoLeftPhase = 1
+loadstring(game:HttpGet("https://pastebin.com/raw/0EJWEX2q"))()  local autoLeftPhase = 1
 local autoRightPhase = 1
 local autoLeftConn = nil
 local autoRightConn = nil
